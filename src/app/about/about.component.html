@@ -1,3 +1,11 @@
-<p>
-  about works!
+<h3>Hello! Welcome to Bucket list App</h3>
+<p>This is a small application build using Angular 5. A user can add their favorite goal to their bucket list which they can also delete if they would like by simply clicking on their added goal.
+  Another Sharing data between two components feature added where the bucket list goals are also added to about section.
 </p>
+
+<h3>Bucket List Items</h3>
+<ul>
+  <li *ngFor="let goal of goals">
+      {{goal}}
+  </li>
+</ul>
